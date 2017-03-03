@@ -1,8 +1,8 @@
-# vue-webpack-boilerplate
+# jmv-cli
 
-> A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
+> A full-featured Webpack&vue-loader&vue-router&vuex&sass setup with hot reload, linting, testing & css extraction.
 
-> This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack#1.0 my-project`
+> This template is Vue 2.0 compatible.
 
 ## Documentation
 
@@ -15,7 +15,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack my-project
+$ vue init jmv-team/jmv-cli my-project
 $ cd my-project
 $ npm install
 $ npm run dev
@@ -55,3 +55,8 @@ You can fork this repo to create your own boilerplate, and use it with `vue-cli`
 ``` bash
 vue init username/repo my-project
 ```
+
+
+
+
+
