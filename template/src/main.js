@@ -7,6 +7,11 @@ import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#router}}
 import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/router}}
+import $ from 'webpack-zepto';
+import FastClick from 'fastclick';
+
+$.ajaxSettings.crossDomain = true;
+FastClick.attach(document.body);
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
