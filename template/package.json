@@ -101,7 +101,7 @@
     "webpack-dev-middleware": "^1.10.0",
     "webpack-hot-middleware": "^2.16.1",
     "webpack-merge": "^2.6.1",
-    "jmv": "^1.0.0"
+    "jmv": "^1.0.9"
   },
   "engines": {
     "node": ">= 4.0.0",
