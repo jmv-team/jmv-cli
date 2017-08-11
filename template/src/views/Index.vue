@@ -25,7 +25,6 @@
         .logo {
             margin-top: 30px;
         }
-
         h1 {
             font-size: 18px;
         }
